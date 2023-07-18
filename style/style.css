@@ -1,0 +1,272 @@
+/* Font style  */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+
+font-family: 'Work Sans', sans-serif;
+
+*{
+    margin: 0 auto;
+}
+
+#primary{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FF42A5;
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    border: 0px;
+    margin-right: 24px;
+    text-transform: uppercase;
+
+}
+
+/* Header style  */
+.gamer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 240px;
+    align-items: center;
+    
+}
+
+.gamer-1{
+    display: flex;
+    margin: 38px 0px;
+}
+
+.gamer-1 img{
+    width: 86.041px;
+    height: 40px;
+    margin-top: 44px;
+    
+}
+
+.gamer-2{
+    /* text-align: center; */
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 20px;
+
+}
+
+h1 span{
+    color: #FF42A5;
+
+}
+
+div nav>ul{
+    display: flex;
+}
+
+div nav ul li{
+    list-style: none;
+    margin-left: 32px;
+}
+
+div  nav ul li a{
+    text-decoration: none;
+} 
+
+#youtube-tiktok{
+    width: 50px;
+    height: 50px;
+}
+
+.button{
+    justify-content: center;
+}
+
+.gamer-3{
+    align-items: center;
+    margin: 54px 0px;
+}
+
+.button{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+/* Play Like The Goal  */
+
+.goal{
+    display: flex;
+    background: #FFF;
+}
+
+.goal-1{
+     background-image: url('../images/Group\ 14.png');
+     width: 50%;
+}
+
+.goal-2{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 148px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    
+}
+
+.goal-3{
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    margin: 0px;
+    color:  #e448f9;
+
+}
+
+.goal-4 li{
+    list-style: none;
+    margin-left: 100px;
+
+}
+
+.goal-5{
+    display: flex;
+    margin-left: 150px;
+}
+
+
+
+#primary-1{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    background: #4EC5F7;
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    border: 0px;
+    text-transform: uppercase;
+
+}
+
+
+#image{
+    width: 511px;
+    height: 446px;
+    margin-right: 240px;
+}
+
+
+/* Mobile View  */
+
+@media screen and (max-width: 576px) {
+
+    .gamer, div nav>ul {
+        flex-direction: column;
+        margin: 20px 20px 0px 20px;
+
+    }
+
+    .goal{
+        flex-direction: column-reverse;
+    }
+
+    .gamer-3{
+        margin: 0px;
+        text-align: center;
+    }
+
+    .gamer-3 nav ul li{
+        
+        margin-top: 20px;
+        
+    }
+
+    .gamer-1{
+        margin: 0px;
+        height: 100px;
+    }
+
+
+    .goal-1{
+     background-image: url('../images/Group\ 14.png');
+     width: 100%;
+    }
+
+    #image{
+    width: 400px;
+    height: 446px;
+    margin-right: 10px;
+    }
+
+    .goal-5{
+        margin-left: 20px;
+    }
+
+
+    
+}
+
+
+
+
+/* Tablate View  */
+
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+
+     .gamer, div nav>ul{
+        flex-direction: column;
+        margin: 20px 20px 0px 20px;
+
+    }
+
+    .goal{
+        flex-direction: column-reverse;
+    }
+
+    .gamer-3{
+        margin: 0px;
+        text-align: center;
+        
+    }
+
+    .gamer-3 nav ul li{
+        
+        margin-top: 20px;
+        
+    }
+
+    .gamer-1{
+        margin: 0px;
+        height: 100px;
+    }
+
+
+    .goal-1{
+     background-image: url('../images/Group\ 14.png');
+     width: 100%;
+    }
+
+    #image{
+    width: 700px;
+    height: 446px;
+    margin: 20px;
+    }
+
+   
+
+    .goal-2 {
+    margin-top: 50px;
+   
+    }
+
+    .goal-4 li {
+    margin-left: 160px;
+    }
+
+}
