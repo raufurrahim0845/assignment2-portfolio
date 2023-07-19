@@ -38,7 +38,7 @@ font-family: 'Work Sans', sans-serif;
     margin: 38px 0px;
 }
 
-.gamer-1 img{
+.gamer-1 img,.footer-2 li a img{
     width: 86.041px;
     height: 40px;
     margin-top: 44px;
@@ -300,8 +300,49 @@ div  nav ul li a{
 
  
 
+/* footer style  */
+.footer{
+    text-align: center;
+    background-color: #0B0223;
+    color: rgba(255, 255, 255, 0.60);
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-1{
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.footer-4 ul,.footer-2 ul,.footer-5 ul{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+.footer3{
+    width: 630px;
+    margin-left: 350px;
+    margin-top: 0px;
+}
+
+.footer4{
+    width: 630px;
+    margin-left: 550px;
+    margin-top: 0px;
+}
+
+.footer5{
+    width: 830px;
+    margin-left: 450px;
+    margin-top: 0px;
+}
 
 
+.footer-4 ul li,.footer-2 ul li,.footer-5 ul li{
+    list-style: none;
+}
 
 /* Mobile View  */
 
@@ -453,6 +494,55 @@ div  nav ul li a{
 
 
 
+
+    /* footer part style */
+
+    .footer{
+        margin-top: 30px;
+        margin-left: 10px;
+        position: relative;
+        right: 5px;
+    }
+
+    .footer-4 ul{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .footer-5 ul{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .footer3{
+        width: 350px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .footer3 li, .footer5 li{
+        margin-bottom: 10px;
+    }
+
+    .footer4{
+        width: 350px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .footer5{
+        width: 350px;
+        margin-left: 0px;
+        margin-top: 20px;
+
+    }
+
+
+    div ul li{
+        list-style: none;
+    }
+
+
+
 }
 
 
@@ -584,5 +674,56 @@ div  nav ul li a{
     }
 
         
+
+
+
+    /* footer part style */
+
+    .footer{
+        margin-top: 100px;
+        margin-left: 10px;
+        position: relative;
+        right: 5px;
+    }
+
+
+    .footer-4 ul{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .footer-5 ul{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .footer3{
+        width: 450px;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    .footer3 li, .footer5 li{
+        margin-bottom: 10px;
+    }
+
+    .footer4{
+        width: 850px;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+
+    .footer5{
+        width: 450px;
+        margin-left: 100px;
+        margin-top: 20px;
+
+    }
+
+
+    div ul li{
+        list-style: none;
+    }
+
+
 
 }
