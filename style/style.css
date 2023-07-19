@@ -209,6 +209,10 @@ div  nav ul li a{
     height: auto;
 }
 
+.video img:hover{
+    
+}
+
 
 
 
@@ -335,7 +339,7 @@ div  nav ul li a{
 
 .footer5{
     width: 830px;
-    margin-left: 450px;
+    margin-left: 350px;
     margin-top: 0px;
 }
 
@@ -343,6 +347,12 @@ div  nav ul li a{
 .footer-4 ul li,.footer-2 ul li,.footer-5 ul li{
     list-style: none;
 }
+
+
+
+
+
+
 
 /* Mobile View  */
 
@@ -477,14 +487,14 @@ div  nav ul li a{
 
     .image-head, .image-title{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(3,1fr);
         gap: 30px 0px;
         
 
     }
 
     .image-head{
-        margin: 0px 60px;
+        margin: 0px 10px;
     }
 
     #image-left{
@@ -503,6 +513,8 @@ div  nav ul li a{
         position: relative;
         right: 5px;
     }
+
+    
 
     .footer-4 ul{
         display: grid;
@@ -707,8 +719,8 @@ div  nav ul li a{
     }
 
     .footer4{
-        width: 850px;
-        margin-left: 100px;
+        width: 500px;
+        margin-left: 200px;
         margin-top: 20px;
     }
 
