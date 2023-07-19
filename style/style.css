@@ -161,11 +161,114 @@ div  nav ul li a{
 }
 
 
+
+
+
+
+
+
+/* Online Games Funny Videos */
+.online-games{
+    background-color: #FFF;
+    margin-top: 100px;
+}
+
+.online-games-1{
+    text-align: center;
+}
+
+.online-games-1 h3{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.online-games-1 h3 span{
+    color: #ec58f1;
+}
+
+.primary-3{
+    margin: 0px;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.online-games-2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 0px 150px;
+    margin-top: 48px;
+    gap: 24px;
+}
+
+.online-games-2 div img,.online-games-2 div p{
+    width: 250px;
+    height: auto;
+}
+
+
+
+
+
+/* Play Instantly, No Downloads No Installs. */
+
+.paly-instantly-1 h3{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0px;
+
+}
+
+.paly-instantly-2{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.paly-instantly{
+    display: flex;
+    margin-top: 50px;
+}
+
+.paly-instantly-1{
+    max-width: 50%;
+    padding: 150px 230px;
+}
+
+.paly-instantly-1 h3 span{
+    color: #df58f1;
+}
+
+
+.paly-instantly-2{
+    position: relative;
+}
+
+#img2{
+    width: 200px;
+    top: -250px;
+    left: -200px;
+}
+
+#img1{
+    width: 500px;
+
+}
+
+
+
+
 /* Mobile View  */
 
 @media screen and (max-width: 576px) {
 
-    .gamer, div nav>ul {
+    .gamer, div nav>ul, .paly-instantly {
         flex-direction: column;
         margin: 20px 20px 0px 20px;
 
@@ -197,6 +300,10 @@ div  nav ul li a{
      width: 100%;
     }
 
+    .goal-2{
+        margin-top: 131px;
+    }
+
     #image{
     width: 400px;
     height: 446px;
@@ -208,7 +315,68 @@ div  nav ul li a{
     }
 
 
+    /* Online Games Funny Videos */
+    .online-games{
+    background-color: #FFF;
+    margin-top: 75px;
+    }
+
+    .online-games-1 h3{
+    font-size: 28px;
+    }
+
+    .primary-3{
+    font-size: 14px;
+    }
+
+
+
+    /* Online Games Funny Videos */
+
+    .online-games-2{
+        flex-direction: column;
+
+    }
+
+    .online-games-2 {
+    display: flex;
+    margin: 0px 75px;
+}
+
+/* Play Instantly, No Download No Installs */
+
+    .paly-instantly-1{
+        max-width: 100%;
+        padding: 0px 30px 40px 30px;
+    }
+
+    .paly-instantly-3{
+        max-width: 60%;
+    }
+
+    .paly-instantly-1 h3 {
+        text-align: center;
+    }
+
+    #img1{
+        left: -100px;
+    }
     
+    #img2{
+    top: -250px;
+    left: -40px;
+    }
+
+    .image{
+        width: 300px;
+        height: 500px;
+        margin-right: 40px;
+
+    }
+    .image2{
+        width: 150px;
+        height: 300px;
+    }
 }
 
 
@@ -219,7 +387,7 @@ div  nav ul li a{
 
 @media screen and (min-width: 576px) and (max-width: 960px) {
 
-     .gamer, div nav>ul{
+     .gamer, div nav>ul, .paly-instantly{
         flex-direction: column;
         margin: 20px 20px 0px 20px;
 
@@ -268,5 +436,53 @@ div  nav ul li a{
     .goal-4 li {
     margin-left: 160px;
     }
+
+
+    /* Online Games Funny Videos */
+
+    .online-games-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    }
+
+    .online-games-2 {
+    margin: 0px 75px;
+    }
+
+    /* Play Instantly, No Download No Installs */
+
+    .paly-instantly-1{
+        max-width: 100%;
+        padding: 0px 30px 40px 30px;
+    }
+
+    .paly-instantly-3{
+        max-width: 60%;
+    }
+
+    .paly-instantly-1 h3, .paly-instantly-1 p {
+        text-align: center;
+    }
+
+    #img1{
+        left: 100px;
+    }
+    
+    #img2{
+    top: -220px;
+    left: 70px;
+    }
+
+    .image{
+        width: 300px;
+        height: 500px;
+        margin-right: 100px;
+
+    }
+    .image2{
+        width: 150px;
+        height: 300px;
+    }
+        
 
 }
