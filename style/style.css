@@ -346,7 +346,7 @@ div  nav ul li a{
     border-radius: 25px;
 }
 
-.image-title p:hover{
+.image-title p:hover, .image-title:hover{
     color: #FF42A5;
 }
 
